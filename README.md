@@ -7,7 +7,7 @@ A Trello-style board for managing todos using the DummyJSON Todos API.
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd trello-board
+   cd trello-clone
    ```
 
 2. **Install dependencies:**
