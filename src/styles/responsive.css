@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .todo-lane {
+        width: 95%;
+    }
+    .font_twentyfourpx {
+        font-size: 18px;
+    }
+    .trello-board {
+        display: block !important;
+    }
+    button {
+        font-size: 14px !important;
+        padding: 10px !important;
+    }
+    input {
+        width: 120px;
+    }
+  }

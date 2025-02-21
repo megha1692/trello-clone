@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.app {
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+.font_eighteenpx {
+  font-size: 24px;
+}
+.font_twentyfourpx {
+  font-size: 24px;
+}
+.font_weight_500 {
+  font-weight: 500;
+}
+
+input {
+  font-size: 15px;
+  outline:none;
+  border:1px solid #c5c5c5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.save_button {
+  font-size: 18px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    background-color:#c5c5c5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.cancel_button {
+  font-size: 18px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    background-color: #c5c5c5;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Loader Animation */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.loader::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border: 5px solid #4a90e2;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

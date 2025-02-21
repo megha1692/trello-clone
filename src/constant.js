@@ -1,0 +1,1 @@
+export const lanes = ["Pending", "In Progress", "Completed"];
